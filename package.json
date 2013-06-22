@@ -1,0 +1,32 @@
+{
+  "name": "consulate-authcode-simple-secrets-redis",
+  "version": "0.1.0",
+  "description": "Redis backend for consulate-authcode-simple-secrets",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/consulate/consulate-authcode-simple-secrets-redis"
+  },
+  "keywords": [
+    "consulate",
+    "redis",
+    "simple-secrets"
+  ],
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/consulate/consulate-authcode-simple-secrets-redis/issues"
+  },
+  "dependencies": {
+    "redis": "~0.8.3",
+    "redisurl": "~0.1.1",
+    "simple-debug": "~1.1.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
